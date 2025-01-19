@@ -18,6 +18,9 @@ return {
 			window = {
 				mappings = {
 					["\\"] = "close_window",
+					["<leader>wp"] = function()
+						vim.cmd("wincmd p")
+					end,
 				},
 			},
 		},
